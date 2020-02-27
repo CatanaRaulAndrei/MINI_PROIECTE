@@ -23,7 +23,7 @@ void Afisare_Cale(int lista_noduri_parinte[],int nod_tinta){
     Afisare_Cale(lista_noduri_parinte,lista_noduri_parinte[nod_tinta]);
     cout<<nod_tinta<<" ";
 }
-// afiseaza nodurile, distanta minima si calea minima cu nod sursa
+// afiseaza nodul sursa si nodul tinta, distanta minima si calea minima cu nodul sursa
 void Afisare_Solutie(int distanta_minima[], int NumarNoduriGraf,int lista_noduri_parinte[]){
     int nod_sursa=0;
     cout<<"Nod\t\tDistanta\tCale";
