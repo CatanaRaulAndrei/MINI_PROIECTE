@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1582830685 source:e:\cursuri video\ds_alg\ds_algorithms_code_c++\dijkstra_matrice_adiacenta\main.cpp
+	<iostream>
+	<limits.h>
+
