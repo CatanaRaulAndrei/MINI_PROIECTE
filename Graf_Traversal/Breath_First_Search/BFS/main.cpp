@@ -47,7 +47,7 @@ void Graf::inserare_muchie(int nod_inceput, int numar_muchii){
 void Graf::traversare_graf_BFS(int nod_inceput){
 
     // Vizitam vectorul astfel incat nodul sa nu fie vizitati mai mult decat odata
-    // Initializam nodul pe false oentru ca nici un nod nu este vizitat la inceput
+    // Initializam nodul pe false pentru ca nici un nod nu este vizitat la inceput
     int nod_curent;
     vector<bool> vizitat(nod_inceput, false);
     vector<int> coada;
